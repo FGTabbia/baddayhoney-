@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Otome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Contenedor principal del juego -->
+    <div class="game-container">
+        <!-- Imagen del personaje o fondo -->
+        <img id="personaje" src="personaje1.jpg" alt="Personaje" class="imagen-personaje">
+        
+        <!-- Contenedor del diálogo en la parte inferior -->
+        <div id="dialogo" class="cuadro-dialogo">
+            <p id="texto-dialogo">Había algo extraño... ¿qué debería decir?</p>
+        </div>
+
+        <!-- Opciones de diálogo en el centro -->
+        <div id="opciones-dialogo" class="opciones-dialogo">
+            <button onclick="eleccion1()">Deberías descansar.</button>
+            <button onclick="eleccion2()">¿Hay algo que pueda hacer?</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
