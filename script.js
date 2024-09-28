@@ -1,12 +1,12 @@
 // Cambia el texto y las opciones según la elección del jugador
 function eleccion1() {
-    // Cambia el texto del diálogo
-    document.getElementById('texto-dialogo').innerHTML = "Has dicho: Deberías descansar.";
+    // Respuesta de geto 
+    document.getElementById('texto-dialogo').innerHTML = "Eso intento, pero cada vez es mas dificil";
     
     // Cambia la imagen del personaje
-    document.getElementById('personaje').src = "personaje1.jpg"; // Cambiará la imagen a otra (reemplaza el archivo con el nombre correcto)
+    document.getElementById('personaje').src = "personaje1.jpg"; // imagen de fondo
     
-    // Cambia las opciones del diálogo
+    // Cambia las opciones del diálogo 
     document.getElementById('opciones-dialogo').innerHTML = `
         <button onclick="final1()">Sonreír.</button>
         <button onclick="final2()">Ignorar.</button>
@@ -14,11 +14,11 @@ function eleccion1() {
 }
 
 function eleccion2() {
-    // Cambia el texto del diálogo
+    // Respuesta de geto 
     document.getElementById('texto-dialogo').innerHTML = "Has preguntado: ¿Hay algo que pueda hacer?";
     
     // No cambiar la imagen en esta opción
-    document.getElementById('personaje').src = "personaje1.jpg"; // Mantiene la misma imagen
+    document.getElementById('personaje').src = "personaje1.jpg"; 
     
     // Cambia las opciones del diálogo
     document.getElementById('opciones-dialogo').innerHTML = `
