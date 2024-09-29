@@ -29,9 +29,9 @@ body {
 .imagen-personaje {
     position: absolute;
     top: 0;
-    size: cover;
-    width: auto;
+    width: 100%;
     height: 100vh;
+    object-fit: cover; 
     z-index: 1;
 }
 
@@ -61,12 +61,12 @@ body {
     padding: 10px 20px;
     font-size: 18px;
     cursor: pointer;
-    background-color: #0066cc;
+    background-color: #050708a1;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 .opciones-dialogo button:hover {
-    background-color: #004999; /* Cambio de color al pasar el ratón */
+    background-color: #0e1013; /* Cambio de color al pasar el ratón */
 }
